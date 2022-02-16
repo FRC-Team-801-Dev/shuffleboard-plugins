@@ -9,3 +9,4 @@
 
 rootProject.name = 'shuffleboard-plugins'
 include('generic-plugin')
+include('sparkmax-widget-plugin')
