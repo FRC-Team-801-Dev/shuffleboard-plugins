@@ -8,6 +8,12 @@
 
 plugins {
     id "java-library"
+    id 'org.openjfx.javafxplugin' version '0.0.10'
+}
+
+javafx {
+    version = "11"
+    modules = [ 'javafx.fxml' ]
 }
 
 repositories {
