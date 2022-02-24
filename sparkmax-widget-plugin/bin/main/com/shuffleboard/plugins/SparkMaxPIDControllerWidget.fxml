@@ -1,5 +1,5 @@
 <?import javafx.scene.layout.*?>
-<StackPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="/path/to/widget/class" fx:id="root">
+<StackPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="SparkMaxPIDControllerWidget" fx:id="root"> 
 
    <VBox>
       <Slider fx:id = "pSlider"/>
@@ -7,6 +7,8 @@
       <Slider fx:id = "dSlider"/>
       <Slider fx:id = "ffSlider"/>
       <Slider fx:id = "izSlider"/>
+      <Slider fx:id = "outputmaxSlider"/>
+      <Slider fx:id = "outputminSlider"/>
    </VBox>
 
 </StackPane>
