@@ -1,4 +1,4 @@
-package edu.horsepower801.myplugin;
+package edu.horsepower801.plugins.generic;
 
 import edu.wpi.first.shuffleboard.api.data.MapData;
 import edu.wpi.first.shuffleboard.api.data.types.MapType;

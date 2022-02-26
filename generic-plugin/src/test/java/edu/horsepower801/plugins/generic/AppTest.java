@@ -1,4 +1,4 @@
-package edu.horsepower801.myplugin;
+package edu.horsepower801.plugins.generic;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

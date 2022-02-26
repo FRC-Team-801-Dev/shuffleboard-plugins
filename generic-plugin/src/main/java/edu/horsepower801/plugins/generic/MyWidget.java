@@ -1,4 +1,4 @@
-package edu.horsepower801.myplugin;
+package edu.horsepower801.plugins.generic;
 
 import edu.wpi.first.shuffleboard.api.data.types.NoneType;
 import edu.wpi.first.shuffleboard.api.widget.Description;
