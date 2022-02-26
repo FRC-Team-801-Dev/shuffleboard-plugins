@@ -8,4 +8,4 @@
  */
 
 rootProject.name = 'shuffleboard-plugins'
-include('Vortx3735.Shuffleboard.2019.WidgetTutorial')
+include('generic-plugin')

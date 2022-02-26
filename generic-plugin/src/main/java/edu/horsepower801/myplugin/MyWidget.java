@@ -1,4 +1,4 @@
-package edu.vortx3735.MyPlugin;
+package edu.horsepower801.myplugin;
 
 import edu.wpi.first.shuffleboard.api.data.types.NoneType;
 import edu.wpi.first.shuffleboard.api.widget.Description;

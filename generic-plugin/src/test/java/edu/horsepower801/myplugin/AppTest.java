@@ -1,4 +1,4 @@
-package edu.vortx3735.MyPlugin;
+package edu.horsepower801.myplugin;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

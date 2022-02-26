@@ -1,4 +1,4 @@
-package edu.vortx3735.MyPlugin;
+package edu.horsepower801.myplugin;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import edu.wpi.first.shuffleboard.api.widget.ComponentType;
 import edu.wpi.first.shuffleboard.api.widget.WidgetType;
 
 @Description(group = "VorTX 3735", name = "MyPlugin", summary = "A test plugin", version = "1.0.0")
-public class App extends Plugin {
+public class MyPlugin extends Plugin {
 	@Override
 	@SuppressWarnings("all")
 	public List<ComponentType> getComponents() {
