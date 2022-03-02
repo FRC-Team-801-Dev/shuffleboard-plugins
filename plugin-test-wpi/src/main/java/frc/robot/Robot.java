@@ -5,6 +5,9 @@
 package frc.robot;
 
 import edu.wpi.first.wpilibj.TimedRobot;
+import edu.wpi.first.wpilibj.shuffleboard.Shuffleboard;
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+import frc.robot.graphing.ScatterPlotWidgetTest;
 import frc.robot.sparkmax.SparkMaxWidgetTest;
 
 /**
@@ -14,17 +17,20 @@ import frc.robot.sparkmax.SparkMaxWidgetTest;
  * project.
  */
 public class Robot extends TimedRobot {
+
+  ScatterPlotWidgetTest scatterPlotTest = new ScatterPlotWidgetTest();
+  SparkMaxWidgetTest sparkMaxTest = new SparkMaxWidgetTest();
+  
   /**
    * This function is run when the robot is first started up and should be used for any
    * initialization code.
    */
+
   @Override
   public void robotInit() {}
 
   @Override
-  public void robotPeriodic() {
-    new SparkMaxWidgetTest();
-  }
+  public void robotPeriodic() {}
 
   @Override
   public void autonomousInit() {}
