@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.ScatterChart?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<GridPane fx:id="pane" minHeight="256.0" minWidth="256.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.horsepower801.plugins.graphing.ScatterPlotWidget">
+   <columnConstraints>
+      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" vgrow="ALWAYS" />
+   </rowConstraints>
+   <children>
+      		<ScatterChart fx:id="chart" alternativeRowFillVisible="false" legendSide="RIGHT" prefHeight="256.0" prefWidth="256.0">
+      			<xAxis>
+      				<NumberAxis fx:id="xAxis" autoRanging="false" side="BOTTOM" />
+      			</xAxis>
+      			<yAxis>
+      				<NumberAxis fx:id="yAxis" autoRanging="false" side="LEFT" />
+      			</yAxis>
+      </ScatterChart>
+   </children>
+</GridPane>
