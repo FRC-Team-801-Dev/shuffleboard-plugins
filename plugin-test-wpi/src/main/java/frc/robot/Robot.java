@@ -5,10 +5,8 @@
 package frc.robot;
 
 import edu.wpi.first.wpilibj.TimedRobot;
-import edu.wpi.first.wpilibj.shuffleboard.Shuffleboard;
-import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import frc.robot.graphing.ScatterPlotWidgetTest;
-import frc.robot.sparkmax.SparkMaxWidgetTest;
+import frc.robot.hardware.SparkMaxWidgetTest;
 
 /**
  * The VM is configured to automatically run this class, and to call the functions corresponding to

@@ -1,24 +1,21 @@
-package frc.robot.sparkmax;
-
-import java.nio.channels.Pipe;
+package frc.robot.hardware;
 
 import edu.wpi.first.util.sendable.Sendable;
 import edu.wpi.first.util.sendable.SendableBuilder;
-import edu.wpi.first.util.sendable.SendableRegistry;
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 
 public class SparkMaxWidgetTest implements Sendable {
 
     double p = 0;
 
     public SparkMaxWidgetTest() {
-        SendableRegistry.addLW(this, "SparkMaxWidget");
+        SmartDashboard.putData("SparkMaxWidgetTest", this);
     }
 
     @Override
     public void initSendable(SendableBuilder builder) {
-        // TODO Auto-generated method stub
-        builder.setSmartDashboardType("NetworkSparkMaxPIDController");
-        builder.addDoubleProperty("p", this::getP, this::setP);
+        builder.setSmartDashboardType("SparkMax");
+        builder.addDoubleProperty("p_0", this::getP, this::setP);
     }
 
     public double getP() {
